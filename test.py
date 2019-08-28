@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from matplotlib import pyplot as plt
 TARGET_SIZE = (720,720)
-kernel = np.ones((5,5),np.uint8)
+kernel = np.ones((7,7),np.uint8)
 imgs=[cv2.imread('00.jpg'),cv2.imread('01.jpg'),cv2.imread('02.jpg'),cv2.imread('03.jpg'),cv2.imread('04.jpg'),cv2.imread('05.jpg'),cv2.imread('06.jpg')]
 
 for i in range(7):
